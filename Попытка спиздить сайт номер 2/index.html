@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru" style="background-color: #2D2D2D">
+
+<head>
+    <title>Все квесты в Омске | Квесты в реальности в Омске</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script>
+        var dataLayer = dataLayer || [];
+  
+        function set_DataLayer_timer() {
+          window.removeEventListener("scroll", set_DataLayer_timer, { passive: true })
+  
+          setTimeout(function() {
+            dataLayer.push({ 'event' : 'loadLowPriorityCounters' });
+  
+            // VK counter
+            !function() {
+              var t = document.createElement("script")
+              t.src = "https://vk.com/js/api/openapi.js?162"
+              t.type = "text/javascript"
+              t.onload = function() {
+                if (!window.VK) return // regularly throws ReferenceError: VK is not defined
+                VK.Retargeting.Init("VK-RTRG-403135-fIXT5")
+                VK.Retargeting.Hit()
+              }
+              document.head.appendChild(t)
+            }()
+          }, 1200)
+        }
+  
+        window.addEventListener("scroll", set_DataLayer_timer, { passive: true })
+      </script>
+</head>
+
+<body class="has-sticky-footer" data-page="quests-index" data-style="unstyled" data-super-navbar="true">
+
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P6X6WK" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
+    <header class="topHead navbar-fixed-top" id="topNav">
+        <div class="super-navbar">
+            <div class="container">
+                <a class="super-navbar__btn super-navbar__btn--city" href="/cities">
+                    <i class="fa fa-map-marker"></i> Омск</a>
+                <a rel="nofollow" class="super-navbar__btn super-navbar__btn--phone" href="tel:+73812218185">+7 (381) 221-81-85</a>
+            </div>
+        </div>
+        <nav class="navbar navbar-inverse navbar__stripe navbar__desktop-expanded">
+            <div class="container">
+                
+                    
+                
+            </div>
+
+        </nav>
+
+    </header> 
+ </body>

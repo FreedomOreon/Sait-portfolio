@@ -1,0 +1,156 @@
+body {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    --brand-success: #5cb85c;
+    --brand-primary: #5998ba;
+    --brand-info: #6e9caa;
+    --brand-warning: #eda33a;
+    --brand-danger: #d9534f;
+    box-sizing: border-box;
+    font-family: rubik,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #fff;
+    background-color: #2d2d2d;
+    padding-top: 93px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+.topHead navbar-fixed-top {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    --brand-success: #5cb85c;
+    --brand-primary: #5998ba;
+    --brand-info: #6e9caa;
+    --brand-warning: #eda33a;
+    --brand-danger: #d9534f;
+    font-family: rubik,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #fff;
+    box-sizing: border-box;
+    display: block;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    top: 0;
+    border-width: 0 0 1px;
+    transition-property: transform,-webkit-transform;
+    transition-duration: .4s;
+    box-shadow: #111 0 0 8px;
+
+}
+
+.super-navbar {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    --brand-success: #5cb85c;
+    --brand-primary: #5998ba;
+    --brand-info: #6e9caa;
+    --brand-warning: #eda33a;
+    --brand-danger: #d9534f;
+    font-family: rubik,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #fff;
+    box-sizing: border-box;
+    background-color: #212121;
+    padding-top: 2px;
+    padding-bottom: 3px;
+
+}
+
+.container {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    --brand-success: #5cb85c;
+    --brand-primary: #5998ba;
+    --brand-info: #6e9caa;
+    --brand-warning: #eda33a;
+    --brand-danger: #d9534f;
+    font-family: rubik,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #fff;
+    box-sizing: border-box;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    width: 100%!important;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.super-navbar__btn super-navbar__btn--city {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    --brand-success: #5cb85c;
+    --brand-primary: #5998ba;
+    --brand-info: #6e9caa;
+    --brand-warning: #eda33a;
+    --brand-danger: #d9534f;
+    font-family: rubik,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    line-height: 1.6;
+    box-sizing: border-box;
+    background-color: transparent;
+    text-decoration: none;
+    border-width: 0;
+    color: gray;
+    font-size: 12px;
+    padding: 5px 10px;
+    margin-right: auto;
+
+}
+
+.fa fa-map-marker
+ {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    --brand-success: #5cb85c;
+    --brand-primary: #5998ba;
+    --brand-info: #6e9caa;
+    --brand-warning: #eda33a;
+    --brand-danger: #d9534f;
+    color: gray;
+    box-sizing: border-box;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+
+ }
+
+ .super-navbar__btn super-navbar__btn--phone 
+ {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    --brand-success: #5cb85c;
+    --brand-primary: #5998ba;
+    --brand-info: #6e9caa;
+    --brand-warning: #eda33a;
+    --brand-danger: #d9534f;
+    font-family: rubik,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    line-height: 1.6;
+    box-sizing: border-box;
+    background-color: transparent;
+    text-decoration: none;
+    border-width: 0;
+    font-size: 12px;
+    padding: 5px 10px;
+    color: #eda33a;
+    letter-spacing: .05em;
+    padding-right: 0;
+
+ }
